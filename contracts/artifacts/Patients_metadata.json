@@ -281,7 +281,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Patiens.sol": "Patients"
+			"contracts/Patients.sol": "Patients"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -295,7 +295,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Patiens.sol": {
+		"contracts/Patients.sol": {
 			"keccak256": "0xe7a4cb85409759f509cc284d79ff1898a355aad19f25cf9f0b219c3ba5d7a411",
 			"license": "UNLICENSED",
 			"urls": [
