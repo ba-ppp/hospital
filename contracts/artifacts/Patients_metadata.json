@@ -1,0 +1,308 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "symtom",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "treatmentInfo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "treatmentResult",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "documentLink",
+						"type": "string"
+					}
+				],
+				"name": "addMedicalHistory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "birth",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "phone",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "height",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "weight",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bloodType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "healthStatus",
+						"type": "string"
+					}
+				],
+				"name": "createNewPatient",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "birth",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "phone",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "height",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "weight",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bloodType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "healthStatus",
+						"type": "string"
+					}
+				],
+				"name": "editInfoPatient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPatientByPublicAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "birth",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "phone",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "email",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "height",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "weight",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "bloodType",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "healthStatus",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "medicalHistoryCount",
+								"type": "uint256"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "timestamp",
+										"type": "uint256"
+									},
+									{
+										"internalType": "address",
+										"name": "doctorAddress",
+										"type": "address"
+									},
+									{
+										"internalType": "string",
+										"name": "symtom",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "diseaseName",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "diseaseDescription",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "treatmentInfo",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "treatmentResult",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "diseaseStatus",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "documentLink",
+										"type": "string"
+									}
+								],
+								"internalType": "struct Patients.MedicalHistoryStruct[]",
+								"name": "medicalHistory",
+								"type": "tuple[]"
+							}
+						],
+						"internalType": "struct Patients.PatientStruct",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Patiens.sol": "Patients"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Patiens.sol": {
+			"keccak256": "0xe7a4cb85409759f509cc284d79ff1898a355aad19f25cf9f0b219c3ba5d7a411",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://73ad7cce14b9dd17a41f475d64d2c22718b1035beb297f9fce6ff3e6dc1b3caf",
+				"dweb:/ipfs/Qmd2zM7hFEcgfX5nsRagxsVpx8zf1DjtZpdtWDPpVgen7A"
+			]
+		}
+	},
+	"version": 1
+}
