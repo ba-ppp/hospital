@@ -1,0 +1,179 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "birth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "phone",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "degrees",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "rank",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "workPlaces",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "speciality",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "experienceYears",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "profileLink",
+						"type": "string"
+					}
+				],
+				"name": "createNewDoctor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDoctorByCurrentAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "gender",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "birth",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "phone",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "email",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "degrees",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "rank",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "workPlaces",
+								"type": "string[]"
+							},
+							{
+								"internalType": "string[]",
+								"name": "speciality",
+								"type": "string[]"
+							},
+							{
+								"internalType": "uint256",
+								"name": "experienceYears",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "profileLink",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Doctors.DoctorStruct",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Doctors.sol": "Doctors"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Doctors.sol": {
+			"keccak256": "0x83b2a28c32ffa934f3152ff9ec7f7c93cb8509ae82bc52bd8813509b4f187f22",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://5fd95e772b9039cfb5e3bd42368360a8cd8ca453989e5c5c99047985f7ad9c42",
+				"dweb:/ipfs/QmPeWyzHHnzcpvFBuhJami5X7eRNA8sH86AYEUp316Gh2q"
+			]
+		}
+	},
+	"version": 1
+}
