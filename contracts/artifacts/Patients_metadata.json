@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.9+commit.e5eed63a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -157,6 +157,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getPatientByPublicAddress",
 				"outputs": [
 					{
@@ -296,11 +309,11 @@
 	},
 	"sources": {
 		"contracts/Patients.sol": {
-			"keccak256": "0xe7a4cb85409759f509cc284d79ff1898a355aad19f25cf9f0b219c3ba5d7a411",
+			"keccak256": "0x4201c87936b56f9ace1bcafe361a721ef5d5252d6d354c6c951cfb1d0d595579",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://73ad7cce14b9dd17a41f475d64d2c22718b1035beb297f9fce6ff3e6dc1b3caf",
-				"dweb:/ipfs/Qmd2zM7hFEcgfX5nsRagxsVpx8zf1DjtZpdtWDPpVgen7A"
+				"bzz-raw://1a8bbd30404495ef5a3b2be5eeb7d45229123bf657cc7d038c0ca9f2d3882c7d",
+				"dweb:/ipfs/QmNpQM4PxPE4x3RWkuqXd1o8P24KxMd5w4G1YPEYgfaNRB"
 			]
 		}
 	},

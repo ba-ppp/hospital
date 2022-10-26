@@ -30,6 +30,9 @@ contract Patients {
     // STORAGE
     mapping(address => PatientStruct) patients;
 
+    address[] a;
+    uint count;
+
     // user create new patient
     function createNewPatient(
         string memory name,
@@ -53,7 +56,13 @@ contract Patients {
         p.bloodType = bloodType;
         p.healthStatus = healthStatus;
 
+        a.push(msg.sender);
+        count += 1;
         return msg.sender;
+    }
+
+    function getAddress() public view returns (address) {
+        return a[count - 1];
     }
 
     // patient edit information
@@ -110,4 +119,7 @@ contract Patients {
     function getPatientByPublicAddress() public view returns (PatientStruct memory) {
         return patients[msg.sender];
     }
+
+
+
 }

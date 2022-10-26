@@ -1,10 +1,71 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.9+commit.e5eed63a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [],
+				"name": "PATIENT_CONTRACT",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "symtom",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "treatmentInfo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "treatmentResult",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "documentLink",
+						"type": "string"
+					}
+				],
+				"name": "addPatientMedicalHistory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
 			{
 				"inputs": [
 					{
@@ -69,8 +130,147 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "birth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "phone",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "degrees",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "rank",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "workPlaces",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "speciality",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "experienceYears",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "profileLink",
+						"type": "string"
+					}
+				],
+				"name": "editDoctorInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getDoctorByCurrentAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "gender",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "birth",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "phone",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "email",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "degrees",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "rank",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "workPlaces",
+								"type": "string[]"
+							},
+							{
+								"internalType": "string[]",
+								"name": "speciality",
+								"type": "string[]"
+							},
+							{
+								"internalType": "uint256",
+								"name": "experienceYears",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "profileLink",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Doctors.DoctorStruct",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "doctorAddress",
+						"type": "address"
+					}
+				],
+				"name": "getDoctorByPublicAddress",
 				"outputs": [
 					{
 						"components": [
@@ -167,11 +367,11 @@
 	},
 	"sources": {
 		"contracts/Doctors.sol": {
-			"keccak256": "0x83b2a28c32ffa934f3152ff9ec7f7c93cb8509ae82bc52bd8813509b4f187f22",
+			"keccak256": "0x20d675b7d1dc945dae17f57dfe57d2b736ec994d5e44e7a4f157e17d3d5ff12a",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://5fd95e772b9039cfb5e3bd42368360a8cd8ca453989e5c5c99047985f7ad9c42",
-				"dweb:/ipfs/QmPeWyzHHnzcpvFBuhJami5X7eRNA8sH86AYEUp316Gh2q"
+				"bzz-raw://80ca5234b4828057d7fc88fb2e31275b91896da4f327cbaa3c6280c72e30ed54",
+				"dweb:/ipfs/QmVcm72rN8HwEmBNgAmjgQHWdCwj14xJffahPcuQjXZgJb"
 			]
 		}
 	},

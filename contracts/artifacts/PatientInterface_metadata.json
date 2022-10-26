@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "symtom",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "treatmentInfo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "treatmentResult",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "diseaseStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "documentLink",
+						"type": "string"
+					}
+				],
+				"name": "addMedicalHistory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Doctors.sol": "PatientInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Doctors.sol": {
+			"keccak256": "0x20d675b7d1dc945dae17f57dfe57d2b736ec994d5e44e7a4f157e17d3d5ff12a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://80ca5234b4828057d7fc88fb2e31275b91896da4f327cbaa3c6280c72e30ed54",
+				"dweb:/ipfs/QmVcm72rN8HwEmBNgAmjgQHWdCwj14xJffahPcuQjXZgJb"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,105 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"addMedicalHistory(address,string,string,string,string,string,string,string)": "f74258f9"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "patientAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "string",
+					"name": "symtom",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "diseaseName",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "diseaseDescription",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "treatmentInfo",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "treatmentResult",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "diseaseStatus",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "documentLink",
+					"type": "string"
+				}
+			],
+			"name": "addMedicalHistory",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

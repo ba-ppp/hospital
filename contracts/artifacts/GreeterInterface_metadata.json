@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_greeting",
+						"type": "string"
+					}
+				],
+				"name": "setGreeting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Doctors.sol": "GreeterInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Doctors.sol": {
+			"keccak256": "0x25ac9339ac3dc91e8db125b7b35be039c8c39c24bd9e78799bc6c62b009b45fb",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://eaf4f57b4b4b25da4643d16bc2bb3c0599bec4de817cffad4971119dd48ba14a",
+				"dweb:/ipfs/QmXqyJWtAj6BV6rWZaDv7DAw8Bbi9gE8RBBYVqhGYDFFVM"
+			]
+		}
+	},
+	"version": 1
+}
